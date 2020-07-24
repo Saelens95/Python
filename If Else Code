@@ -1,0 +1,55 @@
+a = 1
+b = 2
+if a < b:
+    print("a is less than b")
+    print("a is definetly less than b")
+print("Not sure if a is less than b")    
+
+
+c = 7
+d = 4
+if c < d:
+    print("c is less than d")
+else:
+    print("c is not less than d")    
+    print("I do not think c is less than d")
+print("outside of if block")    
+
+
+e = 20
+f = 8
+if e < f:
+    print("e is less than f")
+elif e == f:
+    print("e is equal to f")
+elif e > f + 10:
+    print("e is greater than f by more than ten")
+else:
+    print("e is greater than f")
+    
+    
+g = 8
+h = 8
+if g < h:
+    print("g is less than h")
+else:
+    if g == h:
+        print("g is equal to h")
+    else:
+        print("g is greater than h")
+        
+
+name = "Ryan"
+height_m = 1
+weight_kg = 52
+
+bmi = weight_kg / (height_m ** 2)
+print("bmi: ")
+print(bmi)
+
+if bmi < 60:
+    print(name)
+    print("is not overweight")
+else:
+    print(name)
+    print("is overweight")
