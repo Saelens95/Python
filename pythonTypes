@@ -1,0 +1,39 @@
+type("microsoft")
+
+type(4)
+
+type(True)
+
+a = 3
+b = 1
+
+if a > b:
+    print("a is greater than b")
+
+if a < b:
+    print("a is less than b")
+else:
+    print("greaer than b")
+    
+boolean_value = a > b
+print(boolean_value)
+
+if boolean_value:
+    print("a is greater than b")
+
+def are_you_sad(is_rainy, has_umbrella):
+    return is_rainy and not has_umbrella
+
+are_you_sad(True, False)
+are_you_sad(True, True)
+
+
+def c_greater_than_d_plus_e(c, d, e):
+    return c > d + e
+    
+c_greater_than_d_plus_e(3, 1, 1)
+c_greater_than_d_plus_e(3, 1, 2)
+
+
+#Must Run Program To Get Results!
+
