@@ -54,3 +54,10 @@ result = num1 / num2
 
 for item in food: # This is going to loop through and print each item in the food list above
     print(item)
+
+
+# Conditional Statement --> If-Else
+if num1 < 6:
+    print("This number is less than 6")
+else:
+    print("Not less than 6")
